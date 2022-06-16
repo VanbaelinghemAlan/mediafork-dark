@@ -137,16 +137,20 @@ body.template-dark {
     position: absolute;
     align-items: center;
     justify-content: center;
+    text-align: center;
     gap: 3rem;
-    margin-top: 10rem;
-    margin-left: -32rem;
+    margin-top: 11rem;
+    margin-left: -56rem;
     line-height: 11rem;
+    width: 100%;
     
 }
 
 .nav-link {
     display: block;
     position:relative;
+    background-color: rgba(0, 0, 0, .5);
+    border-bottom: 1px solid var(--transparent-white);
     color: #fff;
     font-size: 3.5rem;
     transition: border var(--transition-duration) var(--transition-function);
