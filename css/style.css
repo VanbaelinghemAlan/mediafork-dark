@@ -93,6 +93,7 @@ body.template-dark {
 .header {
     position: fixed;
     top: 0;
+    padding-bottom: 1rem;
     width: 100%;
     background-color: rgba(0, 0, 0, .5);
     border-bottom: 1px solid var(--transparent-white);
@@ -115,10 +116,10 @@ body.template-dark {
     max-width: 50%;
 }
 .logo-img {
-    width: 4rem;
+    width: 6rem;
 }
 .logo-ttl {
-    font-size: 2rem;
+    font-size: 3.4rem;
     color: var(--primary-color);
     margin-left: 1rem;
 }
@@ -139,9 +140,9 @@ body.template-dark {
     justify-content: center;
     text-align: center;
     gap: 3rem;
-    margin-top: 11rem;
+    margin-top: 10rem;
     margin-left: -56rem;
-    line-height: 11rem;
+    line-height: 10.9rem;
     width: 100%;
     
 }
