@@ -201,6 +201,10 @@ body.template-dark {
         line-height: 0;
         width: none;
     }
+
+    .nav-list.active {
+        display:flex;
+    }
     .nav-link {
         display: inline-block;
         font-size: 1.5rem;
