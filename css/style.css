@@ -140,7 +140,7 @@ body.template-dark {
 }
 
 .nav-list {
-    display: block;
+    display: none;
     position: absolute;
     align-items: center;
     justify-content: center;
@@ -180,6 +180,10 @@ body.template-dark {
 
 .nav-link.active {
     color: var(--transparent-white);
+}
+
+.nav-list.active {
+    display:block
 }
 
 @media screen and (min-width: 768px) {
