@@ -14,3 +14,5 @@ navBurger.addEventListener("click", function() {
 
 navBurger.addEventListener("click", function() {
     bodyChange.classList.toggle("disable");})
+
+    // https://codinhood.com/micro/10-dropdown-menu-animations-css-transform 
