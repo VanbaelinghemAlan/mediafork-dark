@@ -1,6 +1,7 @@
 const navBurger = document.querySelector(".nav .nav-burger")
 const navList = document.querySelector('.nav-list')
 const iconChange = document.querySelector(".fa")
+const bodyChange = document.querySelector(".template-dark")
 
 navBurger.addEventListener("click", function() {
     navList.classList.toggle("active");
@@ -11,3 +12,5 @@ navBurger.addEventListener("click", function() {
     }
 })
 
+navBurger.addEventListener("click", function() {
+    bodyChange.classList.toggle("disable");})

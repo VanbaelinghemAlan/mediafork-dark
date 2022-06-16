@@ -37,6 +37,11 @@ body {
     margin: 0;
 }
 
+.template-dark.disable {
+    overflow:hidden;
+}
+
+
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
@@ -132,7 +137,8 @@ body.template-dark {
 }
 
 .nav-burger {
-    font-size: 3rem;
+    font-size: 7rem;
+    margin-right: 2rem;
     padding-right: 0;
     padding-left: 0rem;
     color: var(--primary-color);
@@ -146,8 +152,8 @@ body.template-dark {
     justify-content: center;
     text-align: center;
     gap: 3rem;
-    margin-top: 7.5rem;
-    margin-left: -95%;
+    margin-top: 10.5rem;
+    margin-left: -89%;
     line-height: 10.45rem;
     width: 100%;   
 }
