@@ -1,6 +1,10 @@
-const navBurger = document.querySelectorAll("fa fa-bars")
-const navList = document.querySelectorAll("nav-list")
+// const navBurger = document.querySelectorAll("fa fa-bars")
+// const navList = document.querySelectorAll("nav-list")
 
-    navBurger.addEventListener("click", function(event) {
-        this.classList.toggle("active");
-    })
+//     navBurger.addEventListener("click", function(event) {
+//         this.classList.toggle("active");
+//     })
+function toggleIcon(event) {
+    this.classList.toggle("fa fa-angle-down");
+}
+document.querySelector("fa.fa-bars").addEventListener("click", toggleIcon);
