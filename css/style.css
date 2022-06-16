@@ -133,17 +133,22 @@ body.template-dark {
 }
 
 .nav-list {
-    display: none;
+    display: block;
+    position: absolute;
     align-items: center;
     justify-content: center;
     gap: 3rem;
+    margin-top: 10rem;
+    margin-left: -32rem;
+    line-height: 11rem;
+    
 }
 
 .nav-link {
-    display: inline-block;
-    position: relative;
+    display: block;
+    position:relative;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 3.5rem;
     transition: border var(--transition-duration) var(--transition-function);
 }
 
