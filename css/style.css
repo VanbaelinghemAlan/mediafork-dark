@@ -127,8 +127,14 @@ body.template-dark {
 
 /* HEADER -> NAV */
 
+.nav {
+    margin-right: -28px;
+}
+
 .nav-burger {
     font-size: 3rem;
+    padding-right: 0;
+    padding-left: 0rem;
     color: var(--primary-color);
     cursor: pointer;
 }
@@ -141,10 +147,9 @@ body.template-dark {
     text-align: center;
     gap: 3rem;
     margin-top: 7.5rem;
-    margin-left: -56rem;
+    margin-left: -95%;
     line-height: 10.45rem;
-    width: 100%;
-    
+    width: 100%;   
 }
 
 .nav-link {
