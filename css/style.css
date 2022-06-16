@@ -183,6 +183,25 @@ body.template-dark {
     }
     .nav-list {
         display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 0;
+        margin-left: 0;
+        line-height: 0;
+        width: none;
+    }
+    .nav-link {
+        display: inline-block;
+        font-size: 1.5rem;
+        border-bottom: none
+    }
+
+    .header-container {
+        display: flex;
+        align-items: center;
+        padding: 1rem 2rem;
     }
 }
 
