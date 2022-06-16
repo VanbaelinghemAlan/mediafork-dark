@@ -116,7 +116,7 @@ body.template-dark {
     max-width: 50%;
 }
 .logo-img {
-    width: 6rem;
+    width: 7rem;
 }
 .logo-ttl {
     font-size: 3.4rem;
@@ -140,9 +140,9 @@ body.template-dark {
     justify-content: center;
     text-align: center;
     gap: 3rem;
-    margin-top: 10rem;
+    margin-top: 7.5rem;
     margin-left: -56rem;
-    line-height: 10.9rem;
+    line-height: 10.45rem;
     width: 100%;
     
 }
