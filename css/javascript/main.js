@@ -16,5 +16,9 @@ navBurger.addEventListener("click", function() {
     bodyChange.classList.toggle("disable");})
 
 
-    //TEST COMMIT
-    // https://codinhood.com/micro/10-dropdown-menu-animations-css-transform 
+    // plan : 
+    // j'ajoute un div qui sera active au click plus tard
+    // je configure en css le nouveau div (zindex)
+    // Je crée une fonction pour qu'il prend certaines données
+    // je crée une fonction pour qu'il se cache.
+    
