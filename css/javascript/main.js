@@ -17,8 +17,10 @@ navBurger.addEventListener("click", function() {
 
 
     // plan : 
-    // j'ajoute un div qui sera active au click plus tard
+    // j'ajoute un div qui sera active au click plus tard   pas bien
     // je configure en css le nouveau div (zindex)
     // Je crée une fonction pour qu'il prend certaines données
     // je crée une fonction pour qu'il se cache.
+
+    // changement de fichier car je pouvais pas push avec l'ancien, test
     
